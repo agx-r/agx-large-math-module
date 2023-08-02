@@ -19,8 +19,9 @@ def subtract_vectors(vector1, vector2):
 vector_2d = [3, 7]
 vector_3d = [1, 4, 2]
 another_vector_2d = [0, -2]
+another_vector_3d = [2, -2, 0]
 result_2d = subtract_vectors(vector_2d, another_vector_2d)
-result_3d = subtract_vectors(vector_3d, another_vector_2d)
+result_3d = subtract_vectors(vector_3d, another_vector_3d)
 
 print("Result (2D):", result_2d)
 print("Result (3D):", result_3d)
