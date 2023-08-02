@@ -19,9 +19,10 @@ def add_vectors(vector1, vector2):
 vector_2d = [3, 5]
 vector_3d = [1, 2, 4]
 another_vector_2d = [2, -1]
+another_vector_3d = [3, -1, -5]
 
 sum_vector_2d = add_vectors(vector_2d, another_vector_2d)
-sum_vector_3d = add_vectors(vector_3d, another_vector_2d)
+sum_vector_3d = add_vectors(vector_3d, another_vector_3d)
 
-print("Sum of 2D vectors:", sum_vector_2d)  # Output: [5, 4]
-print("Sum of 3D vectors:", sum_vector_3d)  # Output: [3, 1, 3]
+print("Sum of 2D vectors:", sum_vector_2d) 
+print("Sum of 3D vectors:", sum_vector_3d) 
