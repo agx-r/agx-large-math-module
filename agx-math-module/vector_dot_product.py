@@ -1,6 +1,6 @@
 def dot_product(vector1, vector2):
     """
-    Calculate the dot product of two vectors.
+    Dot product of two vectors.
 
     Args:
         vector1 (list): List representing the first vector.
