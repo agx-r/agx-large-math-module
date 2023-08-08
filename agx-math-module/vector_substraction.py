@@ -1,6 +1,6 @@
 def subtract_vectors(vector1, vector2):
     """
-    Subtract one vector from another in 2D or 3D space.
+    Subtract one vector from another.
 
     Args:
         vector1 (list): List representing the first vector.
